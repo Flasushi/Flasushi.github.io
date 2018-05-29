@@ -1,0 +1,28 @@
+body {
+  background-color: #080730;
+  text-align: center;
+}
+
+h1 {
+  color: #4f80ff;
+  font-weight: 200;
+}
+
+h2 {
+  color: #4f80ff;
+  font-weight: 200;
+}
+
+h3 {
+  color: #7199ff;
+  font-weight: 100;
+}
+
+a {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+div {
+  
+}
