@@ -20,8 +20,6 @@
           // z軸
           var z = event.acceleration.z;
 
-          if ((0.5 < x)||(0.5 < y)||(0.5 < z)) {
-
                   // 取得した値を表示
           xDir = document.getElementById("xDir");
           yDir = document.getElementById("yDir");
@@ -29,12 +27,12 @@
           xDir.innerHTML = 'x=' + x;
           yDir.innerHTML = 'y=' + y;
           zDir.innerHTML = 'z=' + z;
-        }
+
       }
   </script>
 
   <div style="text-align:center">
-    加速度取得中</br>
+    Acceleration</br>
     <p id="xDir"></p>
     <p id="yDir"></p>
     <p id="zDir"></p>
