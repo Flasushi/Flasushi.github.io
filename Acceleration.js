@@ -11,9 +11,9 @@ function accelerationEvent(event){
   xDir = document.getElementByid("xDir");
   yDir = document.getElementByid("yDir");
   zDir = document.getElementByid("zDir");
-  xDir = innerHTML = 'x=' + x;
-  yDir = innerHTML = 'y=' + y;
-  zDir = innerHTML = 'z=' + z;
-  
+  xDir.innerHTML = 'x=' + x;
+  yDir.innerHTML = 'y=' + y;
+  zDir.innerHTML = 'z=' + z;
+
 
 }
