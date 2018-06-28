@@ -1,14 +1,33 @@
 <html>
 <head>
   <title>Acceleration</title>
-  <script src="Acceleration.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
+  <script>
+    window.addEventListener("devicemotion", accelerationEvent);
+
+    function accelerationEvent(event){
+
+      var x = event.acceleration.x;
+      var y = event.acceleration.y;
+      var z = event.acceleration.z;
+
+      xDir = document.getElementByid("xDir");
+      yDir = document.getElementByid("yDir");
+      zDir = document.getElementByid("zDir");
+
+      xDir.innerHTML = 'x=' + x;
+      yDir.innerHTML = 'y=' + y;
+      zDir.innerHTML = 'z=' + z;
+    }
+  </script>
+
   <div style="text-align:center">
-  Acceleration</br>
-  <p id="xDir"></p>
-  <p id="yDir"></p>
-  <p id="zDir"></p>
+    Acceleration</br>
+    <p id="xDir"></p>
+    <p id="yDir"></p>
+    <p id="zDir"></p>
   </div>
 </body>
 </html>
