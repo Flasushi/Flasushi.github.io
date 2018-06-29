@@ -1,16 +1,17 @@
 body {
-  background-color: #080730;
+  background-color: #fbfbff;
   text-align: center;
+  font-family: 'serif',serif;
 }
 
 h1 {
   color: #4f80ff;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 h2 {
   color: #4f80ff;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 h3 {
