@@ -2,42 +2,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Acceleration</title>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="jQueryRotate.js"></script>
 </head>
 <body>
-
-  <script>
-      // 加速度イベント
-      window.addEventListener("devicemotion", accelerationEvent);
-
-      // イベント発生
-      function accelerationEvent(event) {
-          // x軸
-          var x = event.acceleration.x;
-          // y軸
-          var y = event.acceleration.y;
-          // z軸
-          var z = event.acceleration.z;
-
-                  // 取得した値を表示
-          xDir = document.getElementById("xDir");
-          yDir = document.getElementById("yDir");
-          zDir = document.getElementById("zDir");
-          xDir.innerHTML = 'x=' + x;
-          yDir.innerHTML = 'y=' + y;
-          zDir.innerHTML = 'z=' + z;
-
-      }
-  </script>
-
+  <script type="text/javascript" src="Acceleration.js" ></script>
   <div style="text-align:center">
     Acceleration</br>
     <p id="xDir"></p>
     <p id="yDir"></p>
     <p id="zDir"></p>
   </div>
-
-
 </body>
 </html>
