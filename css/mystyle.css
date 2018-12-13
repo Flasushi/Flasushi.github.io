@@ -1,0 +1,11 @@
+header{
+    padding-bottom: 15em;
+}
+
+nav.navbar{
+    border-bottom: solid 1px #e83e8c;
+}
+
+.navbar-light .nav-item .nav-link::before {
+    border-color: var(--pink);
+  }
