@@ -4,55 +4,146 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>portfolio</title>
+    <title>(´･ェ･｀)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--bootstrap-->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mystyle.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="no-thank-yu" style="padding-top:4.5rem;">
+
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">(´･ェ･｀)</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#account">Account</a>
-                    </li>
-                </ul>
-            </div>
+                <a class="navbar-brand" href="#!">(´･ェ･｀)</a>
+    
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#account">Account</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
     </header>
     
-    <div class="container" id="#about">
+    <div class="container" id="bannar">
         <div class="row">
-            <div class="col-sm-3 offset-sm-2">
-                <img src="img/icon.png" width="200" height="200" class="img-responsive">
+            <div class="col-sm-2 offset-sm-1">
+                <img src="img/icon.png" width="200" height="200" class="img-responsive center-block">
             </div>
-            <div class="col-md-7 text-center">
-                <br><br>
-                <h1>Flasushi</h1>
+            <div class="col-sm-5 offset-sm-3 text-center">
+                <h1 class="mt-5">Flasushi</h1>
                 <p>
-                    <a href="flash.osushi@gmail.com">Mail</a>
-                    <a href="https://github.com/Flasushi">/Github</a>
-                    <a href="https://Twitter.com/Flasushi">/Twitter</a>
+                    <a href="flash.osushi@gmail.com"> Mail </a>
+                    <a href="https://github.com/Flasushi">/ Github</a>
+                    <a href="https://Twitter.com/Flasushi">/ Twitter</a>
                 </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container"  id="about">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>About Me</h1>
+                <table class="table table-sm">
+                    <tbody>
+
+                        <tr>
+                            <th>Name</th>
+                            <td>Flasushi</td>
+                        </tr>
+
+                        <tr>
+                            <th>Using</th>
+                            <td>
+                                <p>エディタ</p>
+                                <ul>
+                                    <li> <a href="https://code.visualstudio.com/"> Visual Studio Code</a> </li>
+                                </ul>
+                                <p>プログラミング言語</p>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>JavaScript(べんつよ中)</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Likes</th>
+                            <td>
+                                <p>アニメ</p>
+                                <ul>
+                                    <li> <a href="http://www.yamanosusume.com/">ヤマノススメ</a> </li>
+                                    <li> <a href="http://comic-girls.com/">こみっくがーるず</a> </li>
+                                    <li> <a href="http://yurucamp.jp/">ゆるキャン△</a> </li>
+                                    <li> <a href="http://newgame-anime.com/">NEW GAME!</a> </li>
+                                    <li> <a href="https://www.cwfilms.jp/5cm/">秒速5センチメートル</a> </li>
+                                </ul>
+
+                                <p>本</p>
+                                <ul>
+                                    <li> <a href="https://www.amazon.co.jp/dp/4121804813/ref=cm_sw_r_tw_dp_U_x_gNmlCbMGGJT4Z">無意識の構造</a> </li>
+                                </ul>
+
+                                <p>VTuber</p>
+                                <ul>
+                                    <li> <a href="https://www.youtube.com/channel/UCIdEIHpS0TdkqRkHL5OkLtA">名取さな</a> </li>
+                                    <li> <a href="https://www.youtube.com/channel/UC4YaOt1yT-ZeyB0OmxHgolA">キズナアイ</a> </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="account">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Account</h1>
+                <table class="table table-sm">
+                    <tbody>
+    
+                        <tr>
+                            <th>SNS</th>
+                            <td>
+                                <ul>
+                                    <li> <a href="https://Twitter.com/Flasushi">Twitter</a> </li>
+                                    <li> <a href="https://github.com/Flasushi">Github</a> </li>
+                                </ul>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <th>Discord</th>
+                            <td>
+                                <ul>
+                                    <li>
+                                        sushi #1024
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
     
 
     <!--jquery-->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
 </html>

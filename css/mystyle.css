@@ -1,11 +1,35 @@
-header{
-    padding-bottom: 15em;
-}
-
 nav.navbar{
     border-bottom: solid 1px #e83e8c;
 }
 
 .navbar-light .nav-item .nav-link::before {
     border-color: var(--pink);
-  }
+}
+h1{
+    font-size: 38px;
+    font-weight: 80;
+}
+
+p{
+    font-size: 18px;
+}
+
+th{
+    width: 20%
+}
+
+.container#bannar{
+    margin-top: 7%
+}
+
+img{
+    margin: auto;
+}
+
+#about{
+    margin-top: 10%;
+}
+
+#account{
+    margin-top: 10%;
+}
